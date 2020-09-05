@@ -11,6 +11,7 @@ import Form from "./components/Form/Form";
 import Help from "./components/Help/Help";
 
 const App = () => {
+  const [soundOn, setSoundOn] = useState(true);
   const [randomVerb, setRandomVerb] = useState("");
   const [randomWord, setRandomWord] = useState("");
   const [text, setText] = useState("");
@@ -33,9 +34,11 @@ const App = () => {
   }, []);
 
   const playSound = (src) => {
-    const audio = new Audio(src);
-    audio.currentTime = 0;
-    audio.play();
+    if (soundOn) {
+      const audio = new Audio(src);
+      audio.currentTime = 0;
+      audio.play();
+    }
   };
 
   const check = () => {
@@ -81,6 +84,8 @@ const App = () => {
   return (
     <div className="App">
       <Form
+        soundOn={soundOn}
+        setSoundOn={setSoundOn}
         sendForm={sendForm}
         RandomVerbs={RandomVerbs}
         check={check}
@@ -88,12 +93,6 @@ const App = () => {
         error={error}
       />
       <Help showHelp={showHelp} setShowHelp={setShowHelp} />
-
-      {/* Features to implement
-        
-        write game instructions
-        mobile test
-      */}
     </div>
   );
 };

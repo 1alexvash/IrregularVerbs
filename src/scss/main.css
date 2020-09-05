@@ -44,6 +44,17 @@ body {
   margin: auto;
 }
 
+.App .Form .sound {
+  text-align: right;
+}
+
+.App .Form .sound img {
+  cursor: pointer;
+  margin-top: 8px;
+  margin-right: 8px;
+  width: 40px;
+}
+
 .App .Form .input {
   padding: 20px;
   font-size: 24px;

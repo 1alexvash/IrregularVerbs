@@ -1,10 +1,28 @@
 import React from "react";
 
-const Form = ({ sendForm, RandomVerbs, check, skip, error }) => (
+import sounOnImg from "../../images/sounfOn.png";
+import sounOffImg from "../../images/sounfOff.png";
+
+const Form = ({
+  soundOn,
+  setSoundOn,
+  sendForm,
+  RandomVerbs,
+  check,
+  skip,
+  error,
+}) => (
   <form
     className={`Form ${error ? "error" : ""}`}
     onSubmit={(e) => sendForm(e)}
   >
+    <div className="sound">
+      {soundOn ? (
+        <img onClick={() => setSoundOn(!soundOn)} src={sounOnImg} alt="" />
+      ) : (
+        <img onClick={() => setSoundOn(!soundOn)} src={sounOffImg} alt="" />
+      )}
+    </div>
     <div className="input">{RandomVerbs}</div>
 
     <div className="buttons">
