@@ -1,26 +1,28 @@
 {
   "files": {
-    "main.css": "/IrregularVerbs/static/css/main.7e172274.chunk.css",
-    "main.js": "/IrregularVerbs/static/js/main.6b6e8638.chunk.js",
-    "main.js.map": "/IrregularVerbs/static/js/main.6b6e8638.chunk.js.map",
+    "main.css": "/IrregularVerbs/static/css/main.8aea5cd8.chunk.css",
+    "main.js": "/IrregularVerbs/static/js/main.94d512bd.chunk.js",
+    "main.js.map": "/IrregularVerbs/static/js/main.94d512bd.chunk.js.map",
     "runtime-main.js": "/IrregularVerbs/static/js/runtime-main.99905a05.js",
     "runtime-main.js.map": "/IrregularVerbs/static/js/runtime-main.99905a05.js.map",
-    "static/js/2.76363ced.chunk.js": "/IrregularVerbs/static/js/2.76363ced.chunk.js",
-    "static/js/2.76363ced.chunk.js.map": "/IrregularVerbs/static/js/2.76363ced.chunk.js.map",
+    "static/js/2.2599da44.chunk.js": "/IrregularVerbs/static/js/2.2599da44.chunk.js",
+    "static/js/2.2599da44.chunk.js.map": "/IrregularVerbs/static/js/2.2599da44.chunk.js.map",
     "index.html": "/IrregularVerbs/index.html",
-    "precache-manifest.af24a6bc979834a5c717d2e74a76150c.js": "/IrregularVerbs/precache-manifest.af24a6bc979834a5c717d2e74a76150c.js",
+    "precache-manifest.f5e0e91024d1323f4b839e3a7a84b39c.js": "/IrregularVerbs/precache-manifest.f5e0e91024d1323f4b839e3a7a84b39c.js",
     "service-worker.js": "/IrregularVerbs/service-worker.js",
-    "static/css/main.7e172274.chunk.css.map": "/IrregularVerbs/static/css/main.7e172274.chunk.css.map",
-    "static/js/2.76363ced.chunk.js.LICENSE.txt": "/IrregularVerbs/static/js/2.76363ced.chunk.js.LICENSE.txt",
+    "static/css/main.8aea5cd8.chunk.css.map": "/IrregularVerbs/static/css/main.8aea5cd8.chunk.css.map",
+    "static/js/2.2599da44.chunk.js.LICENSE.txt": "/IrregularVerbs/static/js/2.2599da44.chunk.js.LICENSE.txt",
     "static/media/close-mark.png": "/IrregularVerbs/static/media/close-mark.e2148c85.png",
     "static/media/question-mark.png": "/IrregularVerbs/static/media/question-mark.6207b3dc.png",
     "static/media/sound_failure.mp3": "/IrregularVerbs/static/media/sound_failure.7768c1d0.mp3",
-    "static/media/sound_success.mp3": "/IrregularVerbs/static/media/sound_success.dcbb5b43.mp3"
+    "static/media/sound_success.mp3": "/IrregularVerbs/static/media/sound_success.dcbb5b43.mp3",
+    "static/media/sounfOff.png": "/IrregularVerbs/static/media/sounfOff.7b4b2118.png",
+    "static/media/sounfOn.png": "/IrregularVerbs/static/media/sounfOn.d0b04512.png"
   },
   "entrypoints": [
     "static/js/runtime-main.99905a05.js",
-    "static/js/2.76363ced.chunk.js",
-    "static/css/main.7e172274.chunk.css",
-    "static/js/main.6b6e8638.chunk.js"
+    "static/js/2.2599da44.chunk.js",
+    "static/css/main.8aea5cd8.chunk.css",
+    "static/js/main.94d512bd.chunk.js"
   ]
 }
